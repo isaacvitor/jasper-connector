@@ -4,9 +4,9 @@ const request = require( 'request' );
 
 class JasperConnetor {
 
-	constructor( serverConfig, credentials ) {
+	constructor( serverConfig ) {
 		this.serverConfig = serverConfig;
-		this.credentials = credentials;
+		this.credentials = serverConfig.credentials;
 		this.loginPath = this.serverConfig.url + this.serverConfig.loginPath;
 		this.reportsPath = this.serverConfig.url + this.serverConfig.rootPathReports;
 		this.lastLogin;
