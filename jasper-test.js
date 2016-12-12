@@ -8,17 +8,15 @@ function myLog (fileName, data) {
 }
 
 const serverConfig = {
-	url:'http://172.16.20.14:8080',
+	url:'http://127.0.0.1:8080',
 	loginPath:'/jasperserver/rest/login',
 	loginTimeOut:120, //seconds
 	rootPathReports:'/jasperserver/rest_v2/reports/reports/',
 	credentials:{user:"jasperadmin", pass:"jasperadmin"};
 }
 
-//let report = "samples/Department.pdf";
-//let report = "cartaoconvenio/rel_cartoes_ativos.pdf";
-let report = "credenciados/rel_ressarcimento.pdf";
-let params = {cnpj:'13669692000107', lote:11424};
+let report = "category/report_name.pdf";
+let params = {cnpj:'00000000000000', lote:11424};
 
 const 
 

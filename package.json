@@ -1,6 +1,6 @@
 {
   "name": "jasper-connector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple JasperReports Server connector",
   "main": "index.js",
   "scripts": {
